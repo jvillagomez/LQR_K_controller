@@ -1,0 +1,9 @@
+-Create your simulink model.
+-Run model to ensure working state.
+-Select a proper run time, in top menu bar (In simulink window).
+-Select Onfiguration Parameters and ensure step times and ROS selection is valid. Thsi si where you make adjustments for the runtime envionrment and catkin workspace.
+-Open the code dropdown menu. Select Deploy.
+-New files and folders will be generated to your current matlab working directory. 
+-Run the command "./build_ros_node.sh <name of the tgz archive> ~catkin"
+-You cna now run your node using a nw terminal: "rosrun simulink_model_name simulink_model_name_node"
+
